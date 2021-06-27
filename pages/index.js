@@ -1,4 +1,4 @@
-import Wrapper from '../components/taskComponents/wrapper'
+import Wrapper from '../components/taskComponents/Wrapper'
 
 export default function Home() {
   return (

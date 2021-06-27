@@ -2,7 +2,7 @@ import Body from './Body'
 import TaskField from './TaskField';
 import React, { useState, useEffect } from 'react'
 
-function wrapper()
+function Wrapper()
 {
    
     const [task, setTask] = useState([{taskName: <TaskField />}]);
@@ -41,4 +41,4 @@ function wrapper()
     )
 }
 
-export default wrapper;
+export default Wrapper;
